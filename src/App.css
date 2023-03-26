@@ -18,7 +18,21 @@
 body {
   background-color: #21183a;
   font-family: 'Raleway', sans-serif;
+  animation-name: bg-transition;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
 }
+@keyframes bg-transition {
+  0% {
+    background-color: #21183a;
+  }
+  50% {
+    background-color: #342a57;
+  }
+  100% {
+    background-color: #21183a;
+  }
+}  
 .name{
   margin-left: 350px;
 }
@@ -36,12 +50,12 @@ body {
 }
 
 .app h1{
-  color: rgb(218, 186, 223);
+  color: rgb(225, 203, 228);
   font-size: 250%;
   font-weight:2000;
 }
 .app h2 {
-  color: rgb(216, 201, 240);
+  color: rgb(225, 203, 228);
   font-size: 150%;
   font-weight: lighter;
 }
@@ -88,7 +102,8 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 30px;
+  margin-top: 20px;
+  margin-left: 8px;
 }
 .app .todos .todo {
   margin-top: 0.8em;

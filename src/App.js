@@ -34,11 +34,11 @@ function App() {
         <br />
         <h2>"A goal without a plan is just a wish"</h2>
         <h2 className="name"> - Antoine de Saint-Exupéry</h2>
-        <br /><br />
+        <br />
         <div class="progress-bar">
           <div class="progress-bar-fill" style={{ width: `${width}%` }}></div>
         </div>
-        <br /><br />
+        <br />
         <h2>Add Today's Goals &#9917;</h2>
       </div>
       <div className="input">
